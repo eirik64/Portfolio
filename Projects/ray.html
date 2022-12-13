@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <title>Portfolio</title>
+        <link rel="stylesheet" href="sock_project.css">
+        <link rel="stylesheet" href="../generic.css">
+    </head>
+
+    <body>
+        <div id="Menu" >
+            <a href="../index.html" class="text-decor-none">
+                <div id="Logo" class="bg-black">
+                    <span class="font white f-48 f-bold">E</span>
+                    <span class="font white f-48 f-bold">6</span>
+                    <span class="font white f-48 f-bold">4</span>
+                </div>
+            </a>
+
+            <div id="Menu_Bar">
+                <div id="Menu_Box">
+                    <ul id="Menu_Horizontal">
+                        <li><a id="Home" class="text-decor-none font black f-32 padding-2 margin-r-3" href="../index.html">Home</a></li>
+                        <li><a id="Proj" class="text-decor-none font black f-32 padding-2 margin-l-3 margin-r-3 transition-down" href="../index.html">Projects</a></li>
+                        <li><a id="About" class="text-decor-none font black f-32 padding-2 margin-l-3 margin-r-3" href="../index.html">About</a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+
+        <div id="Body" class="flex column align_center">
+            <div>
+                <p class="font f-32 black">Developing a Ray Tracer</p>
+            </div>
+
+            <div class="flex column justify_center padding-b-20">
+                <p class="font f-bold f-24 black">About this Project</p>
+                <div class="Project_Description flex row justify_between">
+                    <div id="Sock_Description" class="font f-16">
+                        <span>
+                            The goal of this application was to create a basic raytracer, a renderer that breaks away from
+                            limitations of using vertices with OpenGL to form triangles and approximate shapes that do not
+                            simulate how light travels through a scene. It also makes it difficult to achieve photo realistic
+                            results. This raytracer is meant to support reflections, texture mapping, shadows, more advanced lighting.
+                            <br><br>
+                            One day I wish to show my product on my platform but the difficulty of embedding the GUI into
+                            a website such as this is beyond my current capabilities. Furthermore, as I am still a student
+                            at Brown university I would not want to be breaking any collaboration policies by publicizing my
+                            work and robbing future students the joy and hard work meant to be put into this application.
+                            <br><br>
+                            However, I would love to talk more about my work! Feel free to reach out for a coffee chat at
+                            <span class="text_underlined">  dummy_email@zmail.zom</span>
+                        </span>
+                    </div>
+
+                    <div id="Sock_Timeline" class="font f-16 flex column align_start">
+                        <div class="margin-b-3">
+                            <span class="f-bold black">
+                                Timeline
+                            </span>
+                            <span class="">5 weeks</span>
+                        </div>
+
+                        <div>
+                            <img class="width-20" src="../images/ray_logo.png" alt="Ray Traced Image"/>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </body>
+
+    <footer>
+        <div class="Footer_Box">
+            <div class="Footer_Content flex justify_center">
+                <p class="font f-20 f-bold">
+                    © 2022 E64. MADE WITH ❤ IN LOS ANGELES, CALIFORNIA.
+                </p>
+            </div>
+        </div>
+    </footer>
+</html>

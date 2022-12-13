@@ -1,0 +1,251 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <title>Portfolio</title>
+        <link rel="stylesheet" href="manganato_project.css">
+        <link rel="stylesheet" href="../generic.css">
+    </head>
+    <body>
+
+        <div id="Menu" >
+            <a href="../index.html" class="text-decor-none">
+                <div id="Logo" class="bg-black">
+                    <span class="font white f-48 f-bold">E</span>
+                    <span class="font white f-48 f-bold">6</span>
+                    <span class="font white f-48 f-bold">4</span>
+                </div>
+            </a>
+
+            <div id="Menu_Bar">
+                <div id="Menu_Box">
+                    <ul id="Menu_Horizontal">
+                        <li><a id="Home" class="text-decor-none font black f-32 padding-2 margin-r-3" href="../index.html">Home</a></li>
+                        <li><a id="Proj" class="text-decor-none font black f-32 padding-2 margin-l-3 margin-r-3 transition-down" href="../index.html" onclick="document.getElementById('Projects').scrollIntoView({behavior: 'smooth'})">Projects</a></li>
+                        <li><a id="About" class="text-decor-none font black f-32 padding-2 margin-l-3 margin-r-3" href="../index.html">About</a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+
+        <div id="Body" class="flex column align_center">
+            <div class="">
+                <p class="font f-32 black">Redesigning an Interactive Interface</p>
+            </div>
+
+            <figure id="Manganato_Old" class="padding-b-30">
+                <img src="../images/manganato_old.png"
+                     alt="Manganato landing page"
+                     id="manganato_page">
+
+
+                <figcaption class="caption">
+                    <i>Landing page for <a href="https://manganato.com/">Manganato</a>, a manga/manhwa/manhua reading website that I interact with on a day-to-day basis</i>
+                </figcaption>
+            </figure>
+
+            <div class="Project_Description flex column padding-b-20">
+                <p class="font f-bold f-24 black">About this Project</p>
+                <div class="Description_Timeline flex row justify_between">
+                    <div id="Manganato_Description" class="font f-16">
+                        <span>
+                            The aim of this application was to practice the workflow of redesigning a simple website
+                            due to learnability, memorability, or efficiency issues. In other words, is the website easy for new users to
+                            navigate through, can tasks be done quickly, and is it easy to recall what to do.  The website,
+                        </span>
+                        <a class="text_underlined font text-decor-none black" href="https://manganato.com">
+                            Manganato</a>
+                        <span>, was picked due to the connection I have with it as a regular user and the passion I have
+                            towards improving the interface.
+                        </span>
+                        <br><br>
+                        <span>
+                            Some valuable skills picked up throughout this process was analyzing and identifying flaws in an
+                            existing interface, creating low-fidelity and high-fidelity prototypes for various screen sizes,
+                            and building a responsive website based on those prototypes.
+                        </span>
+                    </div>
+
+                    <div id="Manganato_Timeline" class="font f-16 flex column align_start">
+                        <div class="margin-b-3">
+                            <span class="f-bold black">
+                                Timeline
+                            </span>
+                            <span class="">2 weeks</span>
+                        </div>
+
+                        <div>
+                            <span class="f-bold black">
+                                Discipline
+                            </span>
+                            <ul>
+                                <li>Idea Generation</li>
+                                <li>Rapid prototyping - Lo-fi</li>
+                                <li>Rapid prototyping - Hi-fi</li>
+                                <li>Development and launch</li>
+                            </ul>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+
+            <img id="Transition" src="../images/white_black_transition.jpg" alt="white to black wave transition"/>
+
+            <div id="Lofi" class="bg-black flex justify_center column padding-b-15">
+                <p class="font white f-32 f-bold flex justify_center">Lo-fi Wireframes</p>
+                <!-- Define each of the slides
+                and write the content -->
+                <div class="slides_container bg-black flex justify_center">
+                    <div class="slides">
+                        <img
+                                class="slides-img height-cap"
+                                src="../images/lofi_wireframe01.png"
+                                alt="Sketch of BeU App"
+                        />
+                    </div>
+                    <div class="slides">
+                        <img
+                                class="slides-img height-cap"
+                                src="../images/lofi_wireframe02.png"
+                                alt="Sketch of BeU App"
+                        />
+                    </div>
+                    <div class="slides">
+                        <img
+                                class="slides-img height-cap"
+                                src="../images/lofi_wireframe03.png"
+                                alt="Sketch of BeU App"
+                        />
+                    </div>
+                </div>
+
+                <div class="button">
+                    <button class="btn" onclick="plusDivs(-1)">&#10094;</button>
+                    <button class="btn" onclick="plusDivs(+1)">&#10095;</button>
+                </div>
+
+
+            </div>
+
+            <div id="Style_Guide" class="bg-black flex column justify_center padding-b-15">
+                <p class="font white f-32 f-bold flex justify_center">Style Guide</p>
+               <div class="flex justify_center">
+                   <img
+                           class="slides-img height-cap flex justify_center"
+                           src="../images/style_guide.png"
+                           alt="Sketch of BeU App"
+                   />
+               </div>
+            </div>
+
+            <div id="Hifi" class="bg-black flex justify_center column padding-b-30">
+                <p class="font white f-32 f-bold flex justify_center">Hi-fi Wireframes</p>
+                <!-- Define each of the slides
+                and write the content -->
+                <div class="slides_container bg-black flex justify_center">
+                    <div class="slides2">
+                        <img
+                                class="slides-img height-cap"
+                                src="../images/hifi_wireframe01.png"
+                                alt="Sketch of BeU App"
+                        />
+                    </div>
+                    <div class="slides2">
+                        <img
+                                class="slides-img height-cap"
+                                src="../images/hifi_wireframe02.png"
+                                alt="Sketch of BeU App"
+                        />
+                    </div>
+                    <div class="slides2">
+                        <img
+                                class="slides-img height-cap"
+                                src="../images/hifi_wireframe03.png"
+                                alt="Sketch of BeU App"
+                        />
+                    </div>
+                </div>
+
+                <div class="button">
+                    <button class="btn" onclick="plusDivs2(-1)">&#10094;</button>
+                    <button class="btn" onclick="plusDivs2(+1)">&#10095;</button>
+                </div>
+
+
+            </div>
+
+            <div id="Redesign" class="bg-black flex justify_center padding-t-30 padding-b-60">
+                <div>
+                    <span class="font f-20 white">
+                        Feel free to take a look at the
+                    </span>
+                    <a class="font f-20 white text_underlined" href="https://eirik64.github.io/manganato_redesign/" target="_blank" rel="noopener noreferrer">
+                        final product</a>
+                    <span class="font f-20 white">
+                        :)
+                    </span>
+                </div>
+            </div>
+        </div>
+
+        <script>
+            var slideIndex = 1;
+            showDivs(slideIndex);
+
+            function plusDivs(n) {
+                showDivs((slideIndex += n));
+            }
+
+            function showDivs(n) {
+                var i;
+                var x = document.getElementsByClassName("slides");
+                if (n > x.length) {
+                    slideIndex = 1;
+                }
+                if (n < 1) {
+                    slideIndex = x.length;
+                }
+                for (i = 0; i < x.length; i++) {
+                    x[i].style.display = "none";
+                }
+
+                x[slideIndex - 1].style.display = "block";
+            }
+
+            var slideIndex2 = 1;
+            showDivs2(slideIndex2);
+
+            function plusDivs2(n) {
+                showDivs2((slideIndex2 += n));
+            }
+
+            function showDivs2(n) {
+                var i;
+                var x = document.getElementsByClassName("slides2");
+                if (n > x.length) {
+                    slideIndex2 = 1;
+                }
+                if (n < 1) {
+                    slideIndex2 = x.length;
+                }
+                for (i = 0; i < x.length; i++) {
+                    x[i].style.display = "none";
+                }
+
+                x[slideIndex2 - 1].style.display = "block";
+            }
+        </script>
+    </body>
+
+    <footer>
+        <div class="Footer_Box">
+            <div class="Footer_Content flex justify_center">
+                <p class="font f-20 f-bold">
+                    © 2022 E64. MADE WITH ❤ IN LOS ANGELES, CALIFORNIA.
+                </p>
+            </div>
+        </div>
+    </footer>
+</html>

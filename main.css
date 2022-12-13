@@ -1,0 +1,65 @@
+#Introduction_Box {
+    width: 50vw;
+    height: 55vh;
+    padding-top: 10vh;
+}
+
+#Projects {
+    width: 100%;
+}
+
+#Project1 {
+    visibility: hidden;
+}
+
+#Project2 {
+    visibility: hidden;
+}
+
+#Project3 {
+    visibility: hidden;
+}
+
+#Project4 {
+    visibility: hidden;
+}
+
+.Project_box {
+    width: 60vw;
+    border-style: solid;
+    border-color: white;
+    background-color: white;
+    border-left-width: 2vw;
+    border-right-width: 20px;
+    border-top-width: 0;
+    border-bottom-width: 0;
+    border-radius: 5px;
+    box-shadow: 12px 12px 5px #F3EFE0;
+    transition: box-shadow 1s ease-in-out, border-color 1s ease-in-out;
+
+}
+
+.Project_box:hover {
+    box-shadow: 0 0;
+    border-color: #CCD6A6;
+}
+
+.Image_Box {
+    height: 60vh;
+    border-radius: 5px;
+    background-color: #C7BCA1;
+}
+
+.Project_Images {
+    width: 20vw;
+    height: auto;
+}
+
+#Outro {
+    width: 100%;
+    border-radius: 0 0 5px 5px;
+}
+
+#Hover_About:hover {
+    cursor: pointer;
+}

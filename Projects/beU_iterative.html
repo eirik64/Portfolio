@@ -1,0 +1,366 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <title>Portfolio</title>
+        <link rel="stylesheet" href="beU_iterative.css">
+        <link rel="stylesheet" href="../generic.css">
+    </head>
+
+    <body>
+
+        <div id="Menu" >
+            <a href="../index.html" class="text-decor-none">
+                <div id="Logo" class="bg-black">
+                    <span class="font white f-48 f-bold">E</span>
+                    <span class="font white f-48 f-bold">6</span>
+                    <span class="font white f-48 f-bold">4</span>
+                </div>
+            </a>
+
+            <div id="Menu_Bar">
+                <div id="Menu_Box">
+                    <ul id="Menu_Horizontal">
+                        <li><a id="Home" class="text-decor-none font black f-32 padding-2 margin-r-3" href="../index.html">Home</a></li>
+                        <li><a id="Proj" class="text-decor-none font black f-32 padding-2 margin-l-3 margin-r-3 transition-down" href="../index.html">Projects</a></li>
+                        <li><a id="About" class="text-decor-none font black f-32 padding-2 margin-l-3 margin-r-3" href="../index.html">About</a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+
+        <div id="Body" class="flex column align_center">
+            <div class="">
+                <p class="font f-32 f-bold black">BeU Iterative Design</p>
+            </div>
+
+            <div class="BeU_Description flex column padding-b-20">
+                <p class="font f-bold f-24 black">About this Project</p>
+                <div class="BeU_Timeline flex row justify_between">
+                    <div id="BeU_Description" class="font f-16">
+                        <span>
+                            The goal of this prototype was to design an interactive interface for an emerging startup
+                            while going through the full process of mocking up a solution to the startup's concept. My partners
+                            and I resonated with BeU's mission. BeU delivery is an on-demand food delivery service in
+                            Africa similar to DoorDash or UberEats. They are the #1 food delivery service in Ethiopia,
+                            67% cheaper than the competition, with plans to expand their services to new markets and
+                            eventually become the super APP of Africa. Our group is designing a mobile interface for
+                            BeU because we felt that most users would be interacting with the application on their
+                            phones similar to DoorDash and UberEats. Currently a majority of the Ethiopian population
+                            lacks internet, with only 20.6% surveyed to have consistent internet access in 2021. Furthermore
+                            mobile devices occupy the primary market share in Ethiopia with the breakdown being 63.24% Mobile,
+                            34.29% Desktop, and 2.3% Tablet. This is why a mobile prototype seemed the most viable option for our group.
+                        </span>
+                    </div>
+
+                    <div id="BeU_Timeline" class="font f-16 flex column align_start">
+                        <div class="margin-b-3">
+                            <span class="f-bold black">
+                                Timeline
+                            </span>
+                            <span class="">2 weeks</span>
+                        </div>
+
+                        <div>
+                            <span class="f-bold black">
+                                Discipline
+                            </span>
+                            <ul>
+                                <li>Idea Generation</li>
+                                <li>Rapid prototyping - Lo-fi</li>
+                                <li>Rapid prototyping - Hi-fi</li>
+                                <li>Iteration and Feedback Sessions</li>
+                                <li>Usability Testing and Evaluation</li>
+                                <li>Development and launch</li>
+                            </ul>
+                        </div>
+
+                        <div>
+                            <span class="f-bold black">
+                                Team
+                            </span>
+                            <ul>
+                                <li>Robert Bush</li>
+                                <li>Ikenna Ihenatu</li>
+                                <li>Erick Lerena</li>
+                                <li>Harisen Luby</li>
+                            </ul>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+
+            <img id="Transition" src="../images/white_black_transition.jpg" alt="white to black wave transition"/>
+
+            <div id="Sketching" class="bg-black flex justify_center column padding-b-15 width-100">
+                <p class="font white f-32 f-bold flex justify_center">Sketching</p>
+                <div class="flex justify_center">
+                    <p class="font white f-16 width-50">
+                        After reading the description of the BeU mission, we came up with a few sketches that we thought
+                        achieved the startup's goal. Each person in our group came up with 3 frames each.
+                    </p>
+                </div>
+                <!-- Define each of the slides
+                and write the content -->
+                <div class="slides_container bg-black flex justify_center">
+                    <div class="slides">
+                        <img
+                                class="slides-img height-cap"
+                                src="../images/harisen_sketch.png"
+                                alt="Sketch of BeU App"
+                        />
+                    </div>
+                    <div class="slides">
+                        <img
+                                class="slides-img height-cap"
+                                src="../images/erick_sketch.png"
+                                alt="Sketch of BeU App"
+                        />
+                    </div>
+                    <div class="slides">
+                        <img
+                                class="slides-img height-cap"
+                                src="../images/robert_sketch.png"
+                                alt="Sketch of BeU App"
+                        />
+                    </div>
+                    <div class="slides">
+                        <img
+                                class="slides-img height-cap"
+                                src="../images/ikenna_sketch.png"
+                                alt="Sketch of BeU App"
+                        />
+                    </div>
+                </div>
+
+                <div class="button">
+                    <button class="btn" onclick="plusDivs(-1)">&#10094;</button>
+                    <button class="btn" onclick="plusDivs(+1)">&#10095;</button>
+                </div>
+            </div>
+
+            <div id="Wireframe" class="bg-black flex column justify_center padding-b-15 width-100">
+                <p class="font white f-32 f-bold flex justify_center">Wireframe</p>
+                <div class="flex justify_center">
+                    <p class="font white f-16 width-50">
+                        After some deliberation, we picked the best aspects of all of our designs and came up with a
+                        few wireframes to get a rough idea of our final design.
+                    </p>
+                </div>
+                <div class="flex justify_center">
+                    <img
+                            class="flex justify_center width-80"
+                            src="../images/entire_wireframe.jpg"
+                            alt="Sketch of BeU App"
+                    />
+                </div>
+            </div>
+
+            <div id="Hifi" class="bg-black flex justify_center column padding-b-20 width-100">
+                <p class="font white f-32 f-bold flex justify_center">Hi-fi Wireframes</p>
+                <p class="font white f-24 f-bold flex justify_center">First Iteration Feedback</p>
+
+                <div class="flex justify_center column">
+                    <div class="flex justify_center ">
+                        <ul class="font white f-16 border width-50 p">
+                            <li>
+                                "In the cart it would be nice to change the quantity of items numerically."
+                            </li>
+                            <li>
+                                "It would be helpful to have a dropdown button to read more on the restaurant page to
+                                read the rest of the description"
+                            </li>
+                            <li>
+                                "I'd put the user profile picture in the nav bar in the bottom right corner instead of the
+                                generic icon"
+                            </li>
+                            <li>
+                                "There are a lot of inconsistent fonts and weights used"
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="flex justify_center">
+                        <p class="font white f-16 width-50 border p-special">
+                            After receiving critiques from our classmates, we began iterating and improving our prototype.
+                            Above are some examples of critiques we received that were then fixed in our current version.
+                            They allowed us to provide a more user friendly prototype that better encapsulated what we
+                            hoped to accomplish.
+                        </p>
+                    </div>
+                </div>
+
+                <div class="flex justify_center padding-t-10">
+                    <form
+                            action="https://www.figma.com/proto/NLYVyCj9EhQvfBf8ewwS1X/BeU-Iterative-Design?node-id=12%3A69&starting-point-node-id=12%3A71"
+                            target="_blank"
+                            rel="noopener noreferrer"
+                    >
+                        <input
+                                class="btn"
+                                type="submit"
+                                value="Our Finished Prototype :D"
+                        />
+                    </form>
+                </div>
+            </div>
+
+            <div id="Redesign" class="bg-black flex column padding-b-20 width-100">
+                <p class="font white f-32 f-bold flex justify_center">User Testing Analysis and Critique</p>
+
+                <div class="flex justify_center column">
+                    <div class="flex justify_center">
+                        <p class="font white f-16 width-50 border p-special">
+                            Imagine you are an office worker looking to get a quick lunch delivered to your home.
+                            Place a delivery order from Moyo's Cafe.
+                        </p>
+                    </div>
+
+                    <div class="flex justify_center ">
+                        <ul class="font white f-16 border width-50 p">
+                            <li>
+                                Take as much time as you need to explore this website. Move on to the next task when
+                                you're ready.
+                            </li>
+                            <li>
+                                Think aloud as you navigate the prototype!
+                            </li>
+                            <li>
+                                Browse the available restaurants that are open for delivery.
+                            </li>
+                            <li>
+                                Find out how many items are currently in your cart.
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+
+                <div class="flex justify_center">
+                    <form
+                            action="https://app.usertesting.com/v/13c8addc-3c35-435a-9e57-631e142a279b?encrypted_video_handle=482c80a8-090e-4c82-b768-cce590566d55#!/notes"
+                            target="_blank"
+                            rel="noopener noreferrer"
+                    >
+                        <input
+                                class="btn"
+                                type="submit"
+                                value="User Testing Video #1"
+                        />
+                    </form>
+                </div>
+
+                <div class="flex justify_center">
+                    <form
+                            action="https://app.usertesting.com/v/14ff6ef3-3942-4449-beb5-838ad5592c69?encrypted_video_handle=e6455423-1a5b-424f-8943-7f2dce94830b#!/notes&shared_via=link"
+                            target="_blank"
+                            rel="noopener noreferrer"
+                    >
+                        <input
+                                class="btn"
+                                type="submit"
+                                value="User Testing Video #1"
+                        />
+                    </form>
+                </div>
+
+                <div class="flex justify_center">
+                    <form
+                            action="https://app.usertesting.com/v/2a485b6b-d0a6-4d66-a0d7-489d34802c08?encrypted_video_handle=9520f7af-33e1-4bfc-9776-31bad0d25742#!/notes&shared_via=link"
+                            target="_blank"
+                            rel="noopener noreferrer"
+                    >
+                        <input
+                                class="btn"
+                                type="submit"
+                                value="User Testing Video #1"
+                        />
+                    </form>
+                </div>
+
+                <p class="font white f-24 f-bold flex justify_center">Feedback</p>
+
+                <div class="flex justify_center column">
+                    <div class="flex justify_center">
+                        <p class="font white f-16 width-50 border p-special">
+                            Overall...
+                        </p>
+                    </div>
+
+                    <div class="flex justify_center ">
+                        <ul class="font white f-16 border width-50 p">
+                            <li class="margin-b-3">
+                                User #3 was also appreciative of the deals being front and center on the homescreen.
+                            </li>
+                            <li class="margin-b-3">
+                                For the first subtask, some mentioned how easy it was to navigate the app and commented
+                                on how useful certain features were (time to deliver and rows for "Popular Restaurants",
+                                "Favorite Restaurants", "Order Again", etc.)
+                            </li>
+                            <li class="margin-b-3">
+                                Most users noticed how not everything was interactable which confused them as they tried
+                                to get to a specific restaurant page.
+                            </li>
+                            <li class="margin-b-3">
+                                Many of the user testers noticed a few issues we overlooked such as missing a picture
+                                for one of our restaurants, and missing some text on another one.
+                            </li>
+                            <li class="margin-b-3">
+                                They also noted how useful it would be to have a menu bar at the top of the restaurant
+                                page to quickly navigate to the entrees section or drinks section.
+                            </li>
+                            <li class="margin-b-3">
+                                The user testers universally enjoyed the friends feature, and were excited at the future
+                                possibilities for it.
+                            </li>
+                            <li class="margin-b-3">
+                                Many were saddened at the lack of ability to use a drop down to read more about a
+                                restaurants information.
+                            </li>
+                            <li class="margin-b-3">
+                                They pointed out a general appreciation for all the information on a restaurants page
+                                such as: rating, hours, and menu.
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+
+        <script>
+            let slideIndex = 1;
+            showDivs(slideIndex);
+
+            function plusDivs(n) {
+                showDivs((slideIndex += n));
+            }
+
+            function showDivs(n) {
+                var i;
+                var x = document.getElementsByClassName("slides");
+                if (n > x.length) {
+                    slideIndex = 1;
+                }
+                if (n < 1) {
+                    slideIndex = x.length;
+                }
+                for (i = 0; i < x.length; i++) {
+                    x[i].style.display = "none";
+                }
+
+                x[slideIndex - 1].style.display = "block";
+            }
+        </script>
+    </body>
+
+    <footer>
+        <div class="Footer_Box">
+            <div class="Footer_Content flex justify_center">
+                <p class="font f-20 f-bold">
+                    © 2022 E64. MADE WITH ❤ IN LOS ANGELES, CALIFORNIA.
+                </p>
+            </div>
+        </div>
+    </footer>
+</html>

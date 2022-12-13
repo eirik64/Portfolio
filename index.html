@@ -1,0 +1,194 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Portfolio</title>
+    <link rel="stylesheet" href="main.css">
+    <link rel="stylesheet" href="generic.css">
+</head>
+
+<body>
+
+    <div id="Menu" >
+        <a href="index.html" class="text-decor-none">
+            <div id="Logo" class="bg-black">
+                <span class="font white f-48 f-bold">E</span>
+                <span class="font white f-48 f-bold">6</span>
+                <span class="font white f-48 f-bold">4</span>
+            </div>
+        </a>
+
+        <div id="Menu_Bar">
+            <div id="Menu_Box">
+                <ul id="Menu_Horizontal">
+                    <li><a id="Home" class="text-decor-none font black f-32 padding-2 margin-r-3" href="index.html">Home</a></li>
+                    <li><a id="Proj" class="text-decor-none font black f-32 padding-2 margin-l-3 margin-r-3 transition-down" onclick="document.getElementById('Projects').scrollIntoView({behavior: 'smooth'})">Projects</a></li>
+                    <li><a id="About" class="text-decor-none font black f-32 padding-2 margin-l-3 margin-r-3" href="index.html">About</a></li>
+                </ul>
+            </div>
+        </div>
+    </div>
+
+    <div id="Body" class="flex column align_center">
+        <div id="Introduction_Box">
+            <div class="flex column align_start">
+                <p class="font black f-20">
+                    Hello there! My name is
+                    <span class="font f-bold black">E64</span>,
+                    recently at <span class="grey f-bold font">Microsoft</span>!
+                </p>
+                <p class="font black f-20">
+                    I'm a Brown University undergraduate studying Computer Science working on products that excite and challenge me all while sipping on cups of chai!
+                </p>
+            </div>
+        </div>
+
+        <img id="Transition" src="images/white_black_transition.jpg" alt="white to black wave transition"/>
+
+        <div id="Projects" class="flex column justify_between bg-black">
+            <p class="f-32 white f-bold font flex justify_center">Projects</p>
+            <div id="Project1" class="flex justify_center padding-t-15">
+                <div class="Project_box flex justify_center">
+                    <a href="Projects/manganato_project.html">
+                        <div class="Image_Box flex align_center">
+                            <img class="Project_Images padding-l-3 padding-r-3" src="images/manganato_logo.png" alt="Manganato Logo"/>
+                        </div>
+                    </a>
+
+                    <div class="flex align_center justify_center">
+                        <div class="flex column align_center justify_between padding-l-3 height-20">
+                            <a class="font f-20 f-bold black cursor_pointer text-decor-none" href="Projects/manganato_project.html">
+                                Manganato Redesign
+                            </a>
+                            <a class="font f-16 black text-decor-none cursor_pointer" href="Projects/manganato_project.html">
+                                A website directed at enhancing the manga reading experience of users that frequent the official Manganato website. Efforts were made to simplify the overcrowded website and create a sleek design that made it easier to navigate through the website.
+                            </a>
+                            <a class="font f-16 black text_underlined cursor_pointer text-decor-none" href="Projects/manganato_project.html">
+                                Explore
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div id="Project2" class="flex justify_center padding-t-30">
+                <div class="Project_box bg-white flex justify_center">
+                    <a href="Projects/beU_iterative.html">
+                        <div class="Image_Box flex align_center">
+                            <img class="Project_Images padding-l-3 padding-r-3" src="images/beU_logo.png" alt="beU Logo"/>
+                        </div>
+                    </a>
+
+                    <div class="flex align_center justify_center">
+                        <div class="flex column align_center justify_between padding-l-3 height-20">
+                            <a class="font f-20 black f-bold cursor_pointer text-decor-none" href="Projects/beU_iterative.html">
+                                BeU Iterative Design
+                            </a>
+                            <a class="font f-16 black cursor_pointer text-decor-none" href="Projects/beU_iterative.html">
+                                An interactive interface prototype for an emerging food delivery start-up company based in Addis Ababa, Ethiopia with the ambitious goal of becoming the #1 food delivery app in the continent.
+                            </a>
+                            <a class="font f-16 black text_underlined cursor_pointer text-decor-none" href="Projects/beU_iterative.html">
+                                Explore
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div id="Project3" class="flex justify_center padding-t-30">
+                <div class="Project_box bg-white flex justify_center">
+                   <a href="Projects/sock_project.html">
+                       <div class="Image_Box flex align_center">
+                           <img class="Project_Images padding-l-3 padding-r-3" src="images/sock_logo.jpg" alt="Pink dinosaur socks"/>
+                       </div>
+                   </a>
+
+                    <div class="flex align_center justify_center">
+                        <div class="flex column align_center justify_between padding-l-3 height-20">
+                            <a class="font f-20 black f-bold cursor_pointer text-decor-none" href="Projects/sock_project.html">
+                                Sock Shop
+                            </a>
+                            <a class="font f-16 black cursor_pointer text-decor-none" href="Projects/sock_project.html">
+                                A sock shopping website developed to get more comfortable with list-based interfaces while also delivering a fun interactive shopping experience!
+                            </a>
+                            <a class="font f-16 black text_underlined cursor_pointer text-decor-none" href="Projects/sock_project.html">
+                                Explore
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div id="Project4" class="flex justify_center padding-t-30 padding-b-30">
+                <div class="Project_box bg-white flex justify_center">
+                    <a href="Projects/ray.html">
+                        <div class="Image_Box flex align_center">
+                            <img class="Project_Images padding-l-3 padding-r-3" src="images/ray_logo.png" alt="Image of 3d spheres on a white plain with one big sphere reflecting the other smaller ones surrounding it"/>
+                        </div>
+                    </a>
+
+                    <div class="flex align_center justify_center">
+                        <div class="flex column align_center justify_between padding-l-3 height-20">
+                            <a class="font f-20 black f-bold cursor_pointer text-decor-none" href="Projects/ray.html">
+                                Ray
+                            </a>
+                            <a class="font f-16 black cursor_pointer text-decor-none" href="Projects/ray.html">
+                                An application that ray-traces a given 3d scene with features such as applying filters on the ray-traced scene and drawing over it as well!
+                            </a>
+                            <a class="font f-16 black text_underlined cursor_pointer text-decor-none" href="Projects/ray.html">
+                                Explore
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <script>
+                function hidden(ev) {
+                    console.log(document.getElementById('Project1').offsetTop, window.pageYOffset)
+                    if(window.pageYOffset>document.getElementById('Project1').offsetTop)
+                        document.getElementById("Project1").style.visibility = "visible";
+                    if(window.pageYOffset>document.getElementById('Project2').offsetTop)
+                        document.getElementById("Project2").style.visibility = "visible";
+                    if(window.pageYOffset>document.getElementById('Project3').offsetTop)
+                        document.getElementById("Project3").style.visibility = "visible";
+                    if(window.pageYOffset>document.getElementById('Project4').offsetTop)
+                        document.getElementById("Project4").style.visibility = "visible";
+                }
+                window.onscroll = hidden
+            </script>
+        </div>
+
+        <div id="Outro" class="bg-black flex justify_center padding-b-30">
+            <div>
+                <span class="font f-20 white">
+                    Thanks for checking out my work!
+                </span>
+                <span class="font f-20 white">
+                    Tap to know more about
+                </span>
+                <a id="Hover_About" class="font f-20 white text_underlined" href="Projects/about.html">
+                    me</a>
+                <span class="font f-20 white">
+                    or look at my
+                </span>
+                <a class="font f-20 white text_underlined" href="pdfs/filler_resume.pdf">
+                    resume!
+                </a>
+            </div>
+        </div>
+    </div>
+
+</body>
+
+<footer>
+    <div class="Footer_Box">
+        <div class="Footer_Content flex justify_center">
+            <p class="font f-20 f-bold">
+                © 2022 E64. MADE WITH ❤ IN LOS ANGELES, CALIFORNIA.
+            </p>
+        </div>
+    </div>
+</footer>
+
+</html>
